@@ -1,12 +1,10 @@
-# BotOffP
+# BotOffP (Python)
 
-Telegram-игровой бот (Node.js, Telegraf) с базовыми RPG-механиками: профиль, энергия, бои, инвентарь и квесты.
+Telegram RPG-бот на Python, фреймворк python-telegram-bot.
 
 ## Быстрый старт
 
-1. Установи зависимости:
-   - `npm install`
-2. Создай `.env` по примеру `.env.example`.
-3. Запусти бота:
-   - `npm run dev` (во время разработки)
-   - `npm start` (в продакшене)
+1. Установка:
+   - `pip install -r requirements.txt`
+2. Создай .env по примеру .env.example.
+3. Запусти `python src/bot.py`.
