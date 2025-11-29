@@ -1,2 +1,12 @@
 # BotOffP
-Telegram game bot project with multiple files and assets (approx 10 MB), initial skeleton for further development.
+
+Telegram-игровой бот (Node.js, Telegraf) с базовыми RPG-механиками: профиль, энергия, бои, инвентарь и квесты.
+
+## Быстрый старт
+
+1. Установи зависимости:
+   - `npm install`
+2. Создай `.env` по примеру `.env.example`.
+3. Запусти бота:
+   - `npm run dev` (во время разработки)
+   - `npm start` (в продакшене)
